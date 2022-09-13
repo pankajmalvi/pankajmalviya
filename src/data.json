@@ -1,0 +1,53 @@
+{
+    "personal-details": {
+        "name": "Pankaj Malviya",
+        "tagline": "I’m a Software developer.",
+        "description": "Currently, working with Jio Platforms Limited.",
+        "email": "pankaj.17jics105@jietjodhpur.ac.in"
+    },
+    "important-links": {
+        "github": "https://github.com/pankajmalvi",
+        "linkedin": "https://www.linkedin.com/in/pankajmalvi/"
+    },
+    "skills": {
+        "front-end": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "SASS",
+            "Bootstrap"
+        ],
+        "programming-languages": [
+            "Java",
+            "Python"
+        ],
+        "tools": [
+            "VS Code",
+            "Eclipse",
+            "Jupyter Notebook",
+            "Google Colaboratory"
+        ]
+    },
+    "career": [
+        {
+            "company": "Jio Platforms Limited",
+            "from": "08/10/2022",
+            "to": "Current",
+            "description": [
+                "Working with 4G/5G EPC Node, SCEF(Service Capability Exposure Function) using Java.",
+                "Performed testing for 4G Device Triggering Cases before release.",
+                "Developed solution for Converged NEF(5G) Solution for Device Triggering",
+                "Contributed in identifying and fixing a bug related to the Serving Node."
+            ]
+        }
+    ],
+    "mini-projects": [
+        {
+            "project-name": "Sample Name Mini Project",
+            "live-project-link": "www.google.com",
+            "github-project-link": "www.google.com",
+            "project-description": "Sample description Mini Project"
+        }
+    ]
+}

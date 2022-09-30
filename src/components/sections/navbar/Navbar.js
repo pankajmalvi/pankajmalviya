@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Links from './Links'
 import Logo from './Logo'
 import ResumeButton from './ResumeButton'
+import './styles/Navbar.scss'
 
 export class Navbar extends Component {
 

@@ -2,9 +2,11 @@ import React from 'react'
 
 function Link(props) {
     return (
-        <a href={`#{props.linkName}`}>
-            {props.linkName}
-        </a>
+        <li>
+            <a href={`#${props.linkName.toLowerCase()}`}>
+                {props.linkName}
+            </a>
+        </li>
     )
 }
 export default Link

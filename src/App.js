@@ -1,5 +1,7 @@
 import './App.css';
+import Footer from './components/sections/footer/Footer';
 import Header from './components/sections/header/Header';
+import Main from './components/sections/main/Main';
 
 
 // Data From Json
@@ -11,10 +13,9 @@ function App() {
   let resumeLink = data["personal-details"]["resume-link"]
   return (
     <div className="App">
-      {/* Header */}
       <Header resumeLink={resumeLink} />
-      {/* Main.js */}
-      {/* Footer */}
+      <Main data={data} />
+      <Footer />
     </div>
   );
 }

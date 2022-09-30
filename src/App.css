@@ -27,8 +27,16 @@
   margin: 0;
 }
 
+html {
+  background-color: var(--navy);
+}
+
 body {
+  width: 90%;
+  margin: auto;
   font-family: var(--font-sans);
   padding: 1rem 2rem;
-  background-color: var(--navy);
+
+  /* To be removed later */
+  color: var(--white);
 }

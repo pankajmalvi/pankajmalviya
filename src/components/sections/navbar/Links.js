@@ -5,8 +5,8 @@ function Links(props) {
     let { links } = props
     return (
         <ul>
-            {links.map((link) =>
-                <Link linkName={link} />
+            {links.map((link, idx) =>
+                <Link linkName={link} key={idx} />
             )}
         </ul>
     )

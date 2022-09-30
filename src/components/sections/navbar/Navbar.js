@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import Links from './Links'
 import Logo from './Logo'
-import ResumeButton from './ResumeButton'
+import Navigation from './Navigation'
 import './styles/Navbar.scss'
 
 export class Navbar extends Component {
@@ -16,8 +15,7 @@ export class Navbar extends Component {
         return (
             <nav className="navbar">
                 <Logo />
-                <Links links={this.links} />
-                <ResumeButton resumeLink={this.props.resumeLink} />
+                <Navigation links={this.links} resumeLink={this.props.resumeLink} />
             </nav>
         )
     }

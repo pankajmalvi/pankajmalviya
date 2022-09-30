@@ -3,7 +3,7 @@ import Navbar from '../navbar/Navbar'
 
 function Header(props) {
     return (
-        <header>
+        <header className='header'>
             <Navbar resumeLink={props.resumeLink} />
         </header>
     )

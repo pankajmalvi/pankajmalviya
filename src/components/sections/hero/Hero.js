@@ -9,7 +9,7 @@ import './styles/Hero.scss'
 function Hero(props) {
     let details = props.personalDetails
     return (
-        <section id="section-hero">
+        <section id="section-hero" className='section-hero'>
             <HeroGreeting />
             <HeroName name={details.name} />
             <HeroTagline tagline={details.tagline} />

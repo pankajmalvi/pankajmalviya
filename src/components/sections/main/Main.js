@@ -16,7 +16,7 @@ class Main extends Component {
         return (
             <main className='main-content'>
                 <Hero personalDetails={this.data["personal-details"]} />
-                <About />
+                <About skills={this.data.skills} about={this.data.about} />
                 <Jobs />
                 <Projects />
                 <Contacts />

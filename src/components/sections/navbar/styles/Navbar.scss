@@ -10,9 +10,30 @@
   padding: 0 50px;
 
   .nav-logo {
-    img {
-      width: 3rem;
+    width: 42px;
+    height: 42px;
+    svg {
+      width: 100%;
       height: auto;
+      fill: var(--green);
+
+      path {
+        stroke: var(--green);
+      }
+      text {
+        font-family: var(--font-mono);
+      }
+    }
+
+    &:hover {
+      opacity: 0.5;
+      // svg {
+      //   fill: var(--green-tint);
+
+      //   path {
+      //     stroke: var(--green-tint);
+      //   }
+      // }
     }
   }
 

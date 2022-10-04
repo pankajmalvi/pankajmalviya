@@ -10,6 +10,10 @@
         "github": "https://github.com/pankajmalvi",
         "linkedin": "https://www.linkedin.com/in/pankajmalvi/"
     },
+    "about": [
+        "Hello! My name is Pankaj and I enjoy creating things that live on the internet. My interest in web development started back during my graduation when I decided to explore frontend technologies and I learned about the basics of HTML, CSS and JavaScript!",
+        "I am currently working with Jio Platforms using Java. I am willing to switch my domain to Web Development preferred Frontend. I have some basic knowledge of React Frontend Library. This portfolio website is also built with React."
+    ],
     "skills": {
         "front-end": [
             "HTML",

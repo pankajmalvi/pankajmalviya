@@ -6,7 +6,7 @@ import Projects from '../projects/Projects'
 import Contacts from '../contact/Contacts'
 import LeftFloat from '../../floating/LeftFloat'
 import RightFloat from '../../floating/RightFloat'
-
+import './styles/Main.scss'
 
 
 

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 
 :root {
   --dark-navy: #020c1b;
@@ -38,5 +39,12 @@ body {
   font-family: var(--font-sans);
   max-width: 1600px;
   /* To be removed later */
-  color: var(--white);
+  color: var(--slate);
+
+}
+
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 100px 0;
 }

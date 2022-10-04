@@ -1,0 +1,61 @@
+.section-hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  .hero- {
+    &greeting {
+      font-size: 1rem;
+      font-family: var(--font-mono);
+      color: var(--green);
+      font-weight: 400;
+    }
+
+    &name {
+      color: var(--white);
+      margin: 0 0 10px;
+    }
+
+    &tagline,
+    &name {
+      font-size: clamp(40px, 8vw, 4.5rem);
+    }
+
+    &tagline,
+    &name,
+    &description {
+      margin: 0;
+    }
+
+    &tagline {
+      margin-top: 10px;
+      line-height: 0.9;
+    }
+
+    &description {
+      margin-top: 1rem;
+      font-size: 1rem;
+      max-width: 540px;
+    }
+
+    &button {
+      margin-top: 3rem;
+      line-height: 1.3;
+      border: 1px solid var(--green);
+      background-color: transparent;
+      padding: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      color: var(--green);
+      text-decoration: none;
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+
+      &:hover {
+        background-color: var(--green-tint);
+      }
+    }
+  }
+}

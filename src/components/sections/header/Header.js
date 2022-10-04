@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
+import './styles/Header.scss'
 
 function Header(props) {
     return (

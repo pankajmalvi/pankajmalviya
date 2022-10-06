@@ -7,7 +7,7 @@ import JobPeriod from './JobPeriod'
 function Job({ career }) {
     return (
         <div className='job'>
-            <h3>
+            <h3 className='job-heading'>
                 <JobDesignation designation={career.designation} />
                 <CompanyName companyName={career.company} />
             </h3 >

@@ -2,11 +2,11 @@ import React from 'react'
 
 function JobDescription({ description }) {
     return (
-        <div className="job-description">
+        <ul className="job-description">
             {description.map((desc) =>
-                <p className="description">{desc}</p>
+                <li>{desc}</li>
             )}
-        </div>
+        </ul>
     )
 }
 

@@ -37,8 +37,9 @@
     "career": [
         {
             "company": "Jio Platforms Limited",
-            "from": "08/10/2022",
-            "to": "Current",
+            "designation": "Junior Software Developer",
+            "from": "10/08/2022",
+            "to": "Present",
             "description": [
                 "Working with 4G/5G EPC Node, SCEF(Service Capability Exposure Function) using Java.",
                 "Performed testing for 4G Device Triggering Cases before release.",

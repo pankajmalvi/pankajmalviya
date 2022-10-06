@@ -7,6 +7,7 @@ import Contacts from '../contact/Contacts'
 import LeftFloat from '../../floating/LeftFloat'
 import RightFloat from '../../floating/RightFloat'
 import './styles/Main.scss'
+import SectionHeading from '../SectionHeading'
 
 
 

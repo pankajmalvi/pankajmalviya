@@ -19,7 +19,7 @@ class Main extends Component {
                 <Hero personalDetails={this.data["personal-details"]} />
                 <About skills={this.data.skills} about={this.data.about} />
                 <Jobs career={this.data.career} />
-                <Projects />
+                <Projects projects={this.data["mini-projects"]} />
                 <Contacts />
                 <LeftFloat />
                 <RightFloat />

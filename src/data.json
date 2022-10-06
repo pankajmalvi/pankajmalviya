@@ -52,8 +52,32 @@
         {
             "project-name": "Sample Name Mini Project",
             "live-project-link": "www.google.com",
-            "github-project-link": "www.google.com",
-            "project-description": "Sample description Mini Project"
+            "github-link": "www.google.com",
+            "project-description": "Sample description Mini Project",
+            "skills": [
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "project-name": "Sample Name Mini Project",
+            "live-project-link": "www.google.com",
+            "github-link": "www.google.com",
+            "project-description": "Sample description Mini Project",
+            "skills": [
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "project-name": "Sample Name Mini Project",
+            "live-project-link": "www.google.com",
+            "github-link": "www.google.com",
+            "project-description": "Sample description Mini Project",
+            "skills": [
+                "HTML",
+                "CSS"
+            ]
         }
     ]
 }

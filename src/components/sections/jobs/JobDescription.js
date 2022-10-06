@@ -3,8 +3,8 @@ import React from 'react'
 function JobDescription({ description }) {
     return (
         <ul className="job-description">
-            {description.map((desc) =>
-                <li>{desc}</li>
+            {description.map((desc, idx) =>
+                <li key={idx}>{desc}</li>
             )}
         </ul>
     )

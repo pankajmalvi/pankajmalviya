@@ -9,7 +9,7 @@ function Jobs({ career }) {
             <SectionHeading heading={"Where I've Worked"} />
             <div className="jobs">
                 {career.map((career, idx) =>
-                    <Job career={career} />
+                    <Job career={career} key={idx} />
                 )}
             </div>
         </section>

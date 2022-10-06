@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="logo-bg.svg"
+   id="svg4"
+   preserveAspectRatio="xMidYMid meet"
+   viewBox="0 0 42 42"
+   height="42pt"
+   width="42pt"
+   version="1.0">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg4"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-9"
+     inkscape:window-x="-9"
+     inkscape:cy="27.617402"
+     inkscape:cx="50.264559"
+     inkscape:zoom="5.0049902"
+     showgrid="false"
+     id="namedview6"
+     inkscape:window-height="991"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
+  <g
+     id="g2"
+     stroke="none"
+     fill="#000000"
+     transform="matrix(0.1,0,0,-0.1,0,263)" />
+  <path
+     id="path34"
+     d="M 39.550955,10.641407 39.780805,30.982868 21.22985,41.341461 2.449045,31.358593 2.2191948,11.01713 20.77015,0.65853892 Z"
+     style="opacity:0.999;fill:#0a192f;fill-opacity:1;stroke:#64ffda;stroke-width:1.11948;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <text
+     id="text38"
+     y="29.093557"
+     x="13.501499"
+     style="font-style:normal;font-weight:normal;font-size:20.5679px;line-height:1.25;font-family:sans-serif;fill:#64ffda;fill-opacity:1;stroke:#64ffda;stroke-width:0.514198;stroke-opacity:1;"
+     xml:space="preserve"
+     transform="scale(1.0293614,0.97147613)"><tspan
+       style="stroke:#64ffda;stroke-width:0.514198;stroke-opacity:1;fill:#64ffda;fill-opacity:1;"
+       y="29.093557"
+       x="13.501499"
+       id="tspan36"
+       sodipodi:role="line">P</tspan></text>
+</svg>

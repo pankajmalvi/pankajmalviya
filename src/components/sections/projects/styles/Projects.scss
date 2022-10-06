@@ -1,0 +1,85 @@
+.section-project {
+  .projects {
+    margin: 50px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    .project {
+      padding: 2rem 1.75rem;
+      border-radius: 5px;
+      background-color: var(--light-navy);
+      box-shadow: 0 10px 30px -15px var(--navy-shadow);
+      transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+      min-height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      &-icon-header {
+        display: flex;
+        justify-content: space-between;
+
+        .folder-icon-container {
+          width: 2rem;
+          height: 2rem;
+          svg {
+            color: var(--green);
+          }
+        }
+
+        .icons-container {
+          display: flex;
+          gap: 1rem;
+          a {
+            text-decoration: none;
+            .link-icon-container,
+            .github-icon-container {
+              width: 1.2rem;
+              height: 1.2rem;
+              color: var(--slate);
+
+              &:hover {
+                color: var(--green);
+              }
+
+              &:visited {
+                color: var(--tint-green);
+              }
+            }
+
+            .link-icon-container {
+            }
+
+            .github-icon-container {
+            }
+          }
+        }
+      }
+
+      &-heading {
+        color: var(--white);
+        font-weight: 600;
+        margin: 1rem 0;
+      }
+
+      &-description {
+        font-size: 0.85rem;
+      }
+
+      &-skills-container {
+        small {
+          font-size: 0.85rem;
+          font-weight: 100;
+          font-family: var(--font-mono);
+        }
+      }
+
+      &:hover {
+        box-shadow: 0 20px 30px -15px var(--navy-shadow);
+        transform: translateY(-0.3rem) scale(1.03);
+        .project-heading {
+          color: var(--green);
+        }
+      }
+    }
+  }
+}

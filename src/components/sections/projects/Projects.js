@@ -1,18 +1,15 @@
 import React from 'react'
-import SectionHeading from '../SectionHeading'
-import ProjectIcons from './ProjectIcons'
-import ProjectHeading from './ProjectHeading'
-import ProjectDescription from './ProjectDescription'
-import SkillUsed from './SkillUsed'
+import SectionHeading from '../../common/SectionHeading'
 import Project from './Project'
+import './styles/Projects.scss'
 
 function Projects({ projects }) {
     return (
-        <section id="section-project">
+        <section id="section-project" className='section-project'>
             <SectionHeading heading={"Some Things I've Built"} />
             <div className="projects">
                 {projects.map((project, idx) =>
-                    <Project project={project} key={project} />
+                    <Project project={project} key={idx} />
                 )}
             </div>
         </section>

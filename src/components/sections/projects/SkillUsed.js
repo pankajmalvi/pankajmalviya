@@ -2,7 +2,7 @@ import React from 'react'
 
 function SkillUsed({ skills }) {
     return (
-        <div>
+        <div className='project-skills-container'>
             {skills.map((skill, idx) =>
                 <small key={idx}>{skill} </small>
             )}

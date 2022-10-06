@@ -3,7 +3,7 @@ import AboutText from './AboutText'
 import Skills from './Skills'
 import './styles/About.scss'
 import imageSelf from './../../../assets/img-self.jpg'
-import SectionHeading from '../SectionHeading'
+import SectionHeading from '../../common/SectionHeading'
 
 function About({ skills, about }) {
     return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import SectionHeading from '../SectionHeading'
+import SectionHeading from '../../common/SectionHeading'
 import Job from './Job'
 import './styles/Jobs.scss'
 

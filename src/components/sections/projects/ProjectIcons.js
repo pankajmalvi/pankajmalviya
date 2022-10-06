@@ -1,8 +1,13 @@
 import React from 'react'
+import FolderIcon from './FolderIcon'
+import ProjectLinks from './ProjectLinks'
 
-function ProjectIcons({ liveLink, githubLink }) {
+function ProjectIcons(props) {
     return (
-        <div>Live: {liveLink} Gihub:{githubLink}</div>
+        <div className='project-icon-header'>
+            <FolderIcon />
+            <ProjectLinks links={props} />
+        </div>
     )
 }
 

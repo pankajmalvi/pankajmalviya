@@ -4,12 +4,12 @@ import RightFloat from '../../floating/RightFloat'
 import FooterText from './FooterText'
 import './styles/Footer.scss'
 
-function Footer() {
+function Footer({ links, email }) {
     return (
         <footer className='footer'>
-            <LeftFloat />
+            <LeftFloat links={links} />
             <FooterText />
-            <RightFloat mail={"samplemail@gmail.com"} />
+            <RightFloat mail={email} />
         </footer>
     )
 }

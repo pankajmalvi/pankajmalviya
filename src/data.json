@@ -50,43 +50,158 @@
     ],
     "mini-projects": [
         {
-            "project-name": "Sample Name Mini Project",
-            "live-project-link": "www.google.com",
-            "github-link": "www.google.com",
-            "project-description": "Sample description Mini ProjectSample description Mini ProjectSample description Mini ProjectSample description Mini ProjectSample description Mini ProjectSample description Mini ProjectSample description Mini ProjectProject",
+            "project-name": "Spordict - Sports Prediction Webpage UI",
+            "live-project-link": "https://spordict.github.io/spordict/",
+            "github-link": "https://github.com/spordict/spordict",
+            "project-description": "A major project comprised of various mini project listed below. The project is focused on making a simple UI for a website related to Sports Prediction.",
             "skills": [
                 "HTML",
-                "CSS"
+                "CSS",
+                "JavaScript"
             ]
         },
         {
-            "project-name": "Sample Name Mini Project",
-            "live-project-link": "www.google.com",
-            "github-link": "www.google.com",
-            "project-description": "Sample description Mini Project",
+            "project-name": "Key Codes",
+            "live-project-link": "https://pankajmalvi.github.io/key-codes/",
+            "github-link": "https://www.github.com/pankajmalvi/key-codes",
+            "project-description": "A project based on event handling for keyboard key press. The webpage will display the key pressed with the Event code.",
             "skills": [
                 "HTML",
-                "CSS"
+                "CSS",
+                "JavaScript"
             ]
         },
         {
-            "project-name": "Sample Name Mini Project",
-            "live-project-link": "www.google.com",
-            "github-link": "www.google.com",
-            "project-description": "Sample description Mini Project",
+            "project-name": "FAQ Collapse",
+            "live-project-link": "https://pankajmalvi.github.io/faq-collapse/",
+            "github-link": "https://www.github.com/pankajmalvi/faq-collapse",
+            "project-description": "A simple webpage with FAQ Collapses and expands a feature that gets enabled on clicking each FAQ.",
             "skills": [
                 "HTML",
-                "CSS"
+                "CSS",
+                "JavaScript"
             ]
         },
         {
-            "project-name": "Sample Name Mini Project",
-            "live-project-link": "www.google.com",
-            "github-link": "www.google.com",
-            "project-description": "Sample description Mini Project",
+            "project-name": "Dad Jokes",
+            "live-project-link": "https://pankajmalvi.github.io/dad-jokes/",
+            "github-link": "https://www.github.com/pankajmalvi/dad-jokes",
+            "project-description": "Simple use of API that fetches data and displays it on the webpage.",
             "skills": [
                 "HTML",
-                "CSS"
+                "CSS",
+                "JavaScript",
+                "API"
+            ]
+        },
+        {
+            "project-name": "Split Landing Page",
+            "live-project-link": "https://pankajmalvi.github.io/split-landing-page/",
+            "github-link": "https://www.github.com/pankajmalvi/split-landing-page",
+            "project-description": "Simple illustration of mouse hovers events the split screen is expanded upon hovering on it.",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "project-name": "Scroll Animation",
+            "live-project-link": "https://pankajmalvi.github.io/scroll-animation/",
+            "github-link": "https://www.github.com/pankajmalvi/scroll-animation",
+            "project-description": "The website comprises simple Animation on scrolling the webpage. ",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "project-name": "Blurry Loading",
+            "live-project-link": "https://pankajmalvi.github.io/blurry-loading/",
+            "github-link": "https://www.github.com/pankajmalvi/blurry-loading",
+            "project-description": "An effect on loading the webpage that is blur at initial and gets clear when loaded completely. ",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "project-name": "Rotating Navigation ",
+            "live-project-link": "https://pankajmalvi.github.io/rotating-navigation/",
+            "github-link": "https://www.github.com/pankajmalvi/rotating-navigation",
+            "project-description": "A webpage that demonstrates the rotation of the page using CSS on click of the navigation button and the navigation bar is expanded along with.",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "project-name": "Progress Steps",
+            "live-project-link": "https://pankajmalvi.github.io/progress-steps/",
+            "github-link": "https://www.github.com/pankajmalvi/progress-steps",
+            "project-description": "A mini-project can be used in form submission or the content which has steps included.",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "project-name": "Hidden Search Widget",
+            "live-project-link": "https://pankajmalvi.github.io/hidden-search-widget/",
+            "github-link": "https://www.github.com/pankajmalvi/hidden-search-widget",
+            "project-description": "A search bar project that expands on clicking the search icon.",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "project-name": "Expanding Cards",
+            "live-project-link": "https://pankajmalvi.github.io/expanding-cards/",
+            "github-link": "https://www.github.com/pankajmalvi/expanding-cards",
+            "project-description": "Simple cards that will be collapsed at the initial and can be expanded on clicking the card. The contents will be displayed.",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "project-name": "Sound Board",
+            "live-project-link": "https://pankajmalvi.github.io/sound-board/",
+            "github-link": "https://www.github.com/pankajmalvi/sound-board",
+            "project-description": "Use of audio in webpage demonstration. Added various sounds that can be played by clicking the button.",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "project-name": "Drum Kit",
+            "live-project-link": "https://pankajmalvi.github.io/drum-kit/",
+            "github-link": "https://www.github.com/pankajmalvi/drum-kit",
+            "project-description": "A drum kit that plays drum sound either by clicking on it or by pressing the labelled key.",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "project-name": "Form Wave Animation",
+            "live-project-link": "https://pankajmalvi.github.io/form-wave-animation/",
+            "github-link": "https://www.github.com/pankajmalvi/form-wave-animation",
+            "project-description": "A login form with some animation in input fields.",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript"
             ]
         }
     ]

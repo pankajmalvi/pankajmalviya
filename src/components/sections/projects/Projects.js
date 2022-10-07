@@ -7,11 +7,11 @@ function Projects({ projects }) {
     return (
         <section id="section-project" className='section-project'>
             <SectionHeading heading={"Some Things I've Built"} />
-            <div className="projects">
+            <ul className="projects">
                 {projects.map((project, idx) =>
                     <Project project={project} key={idx} />
                 )}
-            </div>
+            </ul>
         </section>
     )
 }

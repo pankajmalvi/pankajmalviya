@@ -1,9 +1,12 @@
 .section-project {
   .projects {
+    list-style: none;
     margin: 50px 0 0 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1rem;
+    width: 100%;
+
     .project {
       padding: 2rem 1.75rem;
       border-radius: 5px;
@@ -11,9 +14,22 @@
       box-shadow: 0 10px 30px -15px var(--navy-shadow);
       transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
       min-height: 300px;
+      grid-column: auto / span 1;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      a {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-decoration: none;
+        color: inherit;
+        &:visited {
+          color: inherit;
+        }
+      }
+
       &-icon-header {
         display: flex;
         justify-content: space-between;
@@ -39,14 +55,25 @@
       }
 
       &-description {
+        line-height: 1.7;
         font-size: 0.85rem;
+        height: 100%;
+        margin: auto 0;
+        flex: 1;
       }
 
       &-skills-container {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        justify-content: flex-start;
+        gap: 1rem;
+
         small {
-          font-size: 0.85rem;
+          font-size: 0.7rem;
           font-weight: 100;
           font-family: var(--font-mono);
+          line-height: 1.7;
         }
       }
 

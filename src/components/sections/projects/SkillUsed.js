@@ -2,11 +2,13 @@ import React from 'react'
 
 function SkillUsed({ skills }) {
     return (
-        <div className='project-skills-container'>
+        <ul className='project-skills-container'>
             {skills.map((skill, idx) =>
-                <small key={idx}>{skill} </small>
+                <li key={idx}>
+                    <small>{skill} </small>
+                </li>
             )}
-        </div>
+        </ul>
     )
 }
 

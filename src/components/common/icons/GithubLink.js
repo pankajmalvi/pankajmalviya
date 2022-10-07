@@ -1,9 +1,9 @@
 import React from 'react'
-import GithubIcon from '../../common/GithubIcon'
+import GithubIcon from './GithubIcon'
 
 function GithubLink({ link }) {
     return (
-        <a href={link}>
+        <a href={link} target='_blank' rel="noreferrer">
             <GithubIcon />
         </a>
     )

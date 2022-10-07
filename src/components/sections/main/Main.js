@@ -20,8 +20,6 @@ class Main extends Component {
                 <Jobs career={this.data.career} />
                 <Projects projects={this.data["mini-projects"]} />
                 <Contacts mail={this.data["personal-details"]["email"]} />
-                <LeftFloat />
-                <RightFloat />
             </main>
         )
     }

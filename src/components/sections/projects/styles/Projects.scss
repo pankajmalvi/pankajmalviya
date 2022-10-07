@@ -29,29 +29,6 @@
         .icons-container {
           display: flex;
           gap: 1rem;
-          a {
-            text-decoration: none;
-            .link-icon-container,
-            .github-icon-container {
-              width: 1.2rem;
-              height: 1.2rem;
-              color: var(--slate);
-
-              &:hover {
-                color: var(--green);
-              }
-
-              &:visited {
-                color: var(--tint-green);
-              }
-            }
-
-            .link-icon-container {
-            }
-
-            .github-icon-container {
-            }
-          }
         }
       }
 

@@ -1,8 +1,6 @@
 import React from 'react'
-import GithubIcon from '../../common/GithubIcon'
-import LinkIcon from '../../common/LinkIcon'
-import GithubLink from './GithubLink'
-import LiveLink from './LiveLink'
+import GithubLink from '../../common/icons/GithubLink'
+import LiveLink from '../../common/icons/LiveLink'
 
 function ProjectLinks({ links }) {
     return (

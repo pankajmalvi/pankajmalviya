@@ -1,10 +1,10 @@
 import React from 'react'
 
-function RightFloat() {
+function RightFloat({ mail }) {
     return (
-        <article id="right-side-mail">
-            {/* Mail Id */}
-        </article>
+        <article id="float-right">
+            <a href={`mailto:${mail}`} target="_blank" rel="noreferrer">{mail}</a>
+        </article >
     )
 }
 

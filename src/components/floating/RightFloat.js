@@ -2,7 +2,7 @@ import React from 'react'
 
 function RightFloat({ mail }) {
     return (
-        <article id="float-right">
+        <article className="float-right">
             <a href={`mailto:${mail}`} target="_blank" rel="noreferrer">{mail}</a>
         </article >
     )

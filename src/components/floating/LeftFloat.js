@@ -7,7 +7,7 @@ import TwitterLink from '../common/icons/TwitterLink'
 
 function LeftFloat() {
     return (
-        <article id="float-left">
+        <article className="float-left">
             <GithubLink />
             <InstagramLink />
             <TwitterLink />

@@ -57,6 +57,8 @@
           vertical-align: middle;
           border-radius: 5px;
           aspect-ratio: auto 500 / 500;
+          position: relative;
+          z-index: -1;
         }
 
         &::after {

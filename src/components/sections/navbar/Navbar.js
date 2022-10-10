@@ -31,12 +31,19 @@ export class Navbar extends Component {
         const currentScrollPos = window.pageYOffset;
         const visible = prevScrollpos > currentScrollPos;
 
+
+
         this.setState({
             prevScrollpos: currentScrollPos,
             visible
         });
     };
 
+
+    styleShadow = {
+        boxShadow: '0 10px 30px -10px var(--navy-shadow)',
+        height: 'auto'
+    };
 
     links = [
         "About",
@@ -46,7 +53,8 @@ export class Navbar extends Component {
     ]
     render() {
         return (
-            <nav className={` ${!this.state.visible ? "navbar--hidden" : "navbar"}`}>
+            <nav className={` ${!this.state.visible ? "navbar--hidden" : "navbar"}`} style={(this.state.prevScrollpos !== 0) ? this.styleShadow : { boxShadow: 'none' }} >
+
                 <Logo />
                 <Navigation links={this.links} resumeLink={this.props.resumeLink} />
             </nav>

@@ -3,7 +3,7 @@ import React from 'react'
 function Logo() {
     return (
 
-        <a href='#' className='nav-logo'>
+        <a href='#hero' className='nav-logo'>
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="56"

@@ -5,7 +5,7 @@ import './styles/Projects.scss'
 
 function Projects({ projects }) {
     return (
-        <section id="section-project" className='section-project'>
+        <section id="work" className='section-project'>
             <SectionHeading heading={"Some Things I've Built"} />
             <ul className="projects">
                 {projects.map((project, idx) =>

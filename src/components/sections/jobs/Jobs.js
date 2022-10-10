@@ -5,7 +5,7 @@ import './styles/Jobs.scss'
 
 function Jobs({ career }) {
     return (
-        <section id="section-job" className='section-job'>
+        <section id="experience" className='section-job'>
             <SectionHeading heading={"Where I've Worked"} />
             <div className="jobs">
                 {career.map((career, idx) =>

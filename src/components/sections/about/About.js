@@ -7,7 +7,7 @@ import SectionHeading from '../../common/SectionHeading'
 
 function About({ skills, about }) {
     return (
-        <section id="section-about" className='section-about'>
+        <section id="about" className='section-about'>
             <SectionHeading heading={"About Me"} />
             <div className="section-content">
                 <div className="section-content-left">
@@ -17,7 +17,7 @@ function About({ skills, about }) {
                 </div>
                 <div className="section-content-right">
                     <div className="image-container">
-                        <img src={imageSelf} alt="Profile Image Self" />
+                        <img src={imageSelf} alt="Profile Self" />
                     </div>
                 </div>
             </div>

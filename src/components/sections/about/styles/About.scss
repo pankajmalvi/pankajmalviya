@@ -20,19 +20,22 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
       }
-      .skill-category {
+      ul.skill-category {
         width: 100%;
         max-width: 540px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         font-family: var(--font-mono);
         font-size: 0.85rem;
+        padding-left: 1rem;
 
         li {
           grid-column: auto/ span 1;
           list-style: none;
           line-height: 1.5;
           white-space: nowrap;
+          gap: 5px;
+
           &::before {
             content: "▹";
             color: var(--green);

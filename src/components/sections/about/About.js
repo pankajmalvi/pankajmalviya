@@ -12,7 +12,7 @@ function About({ skills, about }) {
             <div className="section-content">
                 <div className="section-content-left">
                     {about.map((text, idx) => <AboutText text={text} key={idx} />)}
-                    <p className='about-text-heading'>Skills I am familiar with or have experience with:</p>
+                    <p className='about-text-heading'>Familiar with:</p>
                     <Skills skills={skills} />
                 </div>
                 <div className="section-content-right">
